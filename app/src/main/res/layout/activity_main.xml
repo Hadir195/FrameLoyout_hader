@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="hadir sastra imam p"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,VisualLintOverlap" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/purple_200"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:background="@color/purple_200"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="50dp"
+        tools:ignore="ContentDescription" />
+
+</FrameLayout>
